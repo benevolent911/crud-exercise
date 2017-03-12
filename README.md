@@ -18,6 +18,10 @@
 * ```php artisan migrate --seed``` to create tables and populate fake/dummy book data and Rio admin account
 * ```php artisan serve``` then point browser to laravel server to start the app
 
+### Default Admin Account
+* Email : ```rio@email.com```
+* Password : ```admin```
+
 ### Features
 
 * Home/Books Page, Available Books Page, Borrowed Books Page, Register Page, Create Book Page
