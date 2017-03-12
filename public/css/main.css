@@ -1,0 +1,22 @@
+.form-inline .form-group input {
+    width:300px;
+}
+
+.thumbnail {
+    min-height: 390px;
+    border-color: grey;
+}
+
+.thumbnail > img {
+    border: black solid 1px;
+}
+
+.pagination {
+    margin: auto;
+}
+
+.ui-autocomplete {    
+    max-height: 200px;
+    overflow-y: auto;    
+    overflow-x: hidden;
+}
