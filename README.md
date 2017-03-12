@@ -28,11 +28,11 @@
 * Book details (title, author, genre, library section, borrowed count, last borrowed by)
 * Search books by filter (title, author, genre and library section)
 * Order books by ascending or descending
-* Return/borrow book
-* Edit/delete book
 * Autocomplete search box
-* Authentication (registration, login, logout)
 * Roles (admin, user/borrower, public)
+* Return/borrow book by user
+* Edit/delete book by admin
+* Authentication (registration, login, logout)
 * Data validation (email, password, name, title, author, genre and library section)
 * Custom Error Page 403, 404, 405
 
