@@ -27,7 +27,7 @@ $factory->define(RioLibrary\Book::class, function (Faker\Generator $faker) {
 
     return [
         'title' => ucwords($faker->catchPhrase),
-        'author' => ucwords($faker->name($gender = null|'male'|'female')),
+        'author' => ucwords($faker->name($gender = 'male'|'female')),
         'genre' => $faker->randomElement($array = array ('Horror','Romance','Thriller','Comedy','Tragedy','Melodrama','Urban','Suspense')),
         'library_section' => $faker->randomElement($array = array ('Circulation','Periodical Section','General Reference','Children\'s Section','Fiction')),
         'borrowed' => false,
